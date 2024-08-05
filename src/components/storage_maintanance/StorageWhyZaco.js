@@ -14,7 +14,7 @@ const StorageWhyZaco = () => {
           <Col lg={6} className="animated fadeInLeft my-auto">
          
             <div className="">
-              <img
+              <Image
                src={serverStorageimg3.src}
                 alt=""
                 className="w-full  max-w-full"

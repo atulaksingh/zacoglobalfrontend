@@ -55,7 +55,7 @@ const HeaderSix = () => {
     <header className="header-six">
       <div className="auto-container">
         <div className="header-six__logo">
-          <Link className="" href="/">
+          <Link className="" href="/" passHref>
               <Image src={logo6.src} width={134} alt={title} className=" hidden lg:visible" />
               <Image src={lMobile.src} width={134} alt={title} className="bigNewImage  py-1.5" />
           </Link>

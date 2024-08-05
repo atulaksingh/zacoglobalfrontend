@@ -148,19 +148,19 @@ const FooterSix = () => {
           >
             <div className="flex flex-wrap justify-around align-middle items-center ">
               <div className="text-lg font-semibold">Countries</div>
-              <Link href={"/"}>
+              <Link href={"/"} passHref>
                 <Image src={flag.src} width={45} alt="" />
                 <div className="my-1 text-center">INDIA</div>
               </Link>
-              <Link href={"/UK"}>
+              <Link href={"/UK"} passHref>
                 <Image src={flag1.src} width={45} alt="" />
                 <div className="my-1 text-center">UK</div>
               </Link>
-              <Link href={"/UAE"}>
+              <Link href={"/UAE"} passHref>
                 <Image src={flag2.src} width={45} alt="" />
                 <div className="my-1 text-center">UAE</div>
               </Link>
-              <Link href={"/canada"} className="text-center">
+              <Link href={"/canada"} className="text-center" passHref>
                 <Image src={flag3.src} width={45} alt="" className=" m-auto"/>
                 <div className="my-1 text-center">CANADA</div>
               </Link>

@@ -40,7 +40,7 @@ const BlogSingle = () => {
       <MobileMenu />
       <SearchPopup />
       <PageBanner title="Blog Posts" page="Blog Single" />
-      <SidebarPageContainerTwo isDetails postId={id} />
+      {/* <SidebarPageContainerTwo isDetails postId={id} /> */}
       <MainFooter />
     </Layout>
   );
