@@ -34,7 +34,19 @@ const AboutSection = () => {
                   <span className="dot"></span>
                 </div>
                 {/* <div className="lower-text">{text1}</div> */}
-                <div className="text clearfix mt-4 ">At Zaco Computers, we understand the vital role servers play in the smooth operation of your business. That's why we offer <span className="font-bold">comprehensive server maintenance services</span> designed to keep your servers running efficiently, securely and reliably. Whether you have a single server or a complex network infrastructure, our team of highly skilled and certified IT engineers is equipped to provide the support you need to achieve optimal performance with minimize downtime.</div>
+                <div className="text clearfix mt-4 ">
+                  At Zaco Computers, we understand the vital role servers play
+                  in the smooth operation of your business. That&apos;s why we
+                  offer
+                  <span className="font-bold">
+                    comprehensive server maintenance services
+                  </span>
+                  designed to keep your servers running efficiently, securely
+                  and reliably. Whether you have a single server or a complex
+                  network infrastructure, our team of highly skilled and
+                  certified IT engineers is equipped to provide the support you
+                  need to achieve optimal performance with minimize downtime.
+                </div>
               </div>
               {/* <div className="text">
                 <div>{text2}</div>

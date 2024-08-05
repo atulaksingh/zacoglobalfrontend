@@ -34,7 +34,7 @@ const WhyUs = () => {
             </Col>
             <Col lg={6} md={12} sm={12} className="right-col">
               <div className="inner">
-              <div class="sec-title-eight text-start"><h2 class="sec-title-eight__title">Benefits of Renting Servers | Why Get Servers on Rent with Zaco</h2></div>
+              <div className="sec-title-eight text-start"><h2 className="sec-title-eight__title">Benefits of Renting Servers | Why Get Servers on Rent with Zaco</h2></div>
                 <div className="features">
                   {boxes2.map(({ id, title, text }) => (
                     <div key={id} className="feature">

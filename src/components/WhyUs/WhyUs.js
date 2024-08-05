@@ -33,13 +33,17 @@ const WhyUs = () => {
             </Col>
             <Col lg={6} md={12} sm={12} className="right-col">
               <div className="inner">
-              <div class="sec-title-eight text-start"><h2 class="sec-title-eight__title">Benefits of Choosing Zaco Computers for Server Maintenance</h2></div>
+                <div className="sec-title-eight text-start">
+                  <h2 className="sec-title-eight__title">
+                    Benefits of Choosing Zaco Computers for Server Maintenance
+                  </h2>
+                </div>
                 <div className="features">
                   {features.map(({ id, title, text }) => (
                     <div key={id} className="feature">
                       {/* <div className="inner-box"> */}
-                        <div className="text">{text}</div>
-                        {/* <h6>{title}</h6> */}
+                      <div className="text">{text}</div>
+                      {/* <h6>{title}</h6> */}
                       {/* </div> */}
                     </div>
                   ))}
