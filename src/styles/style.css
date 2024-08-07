@@ -24355,3 +24355,181 @@ height: 60px;
 
 
 
+.dm-flip-card {
+  
+  position:relative; 
+  width : 400px;
+  height : 450px;
+  background:transparent;
+  transform-style: preserve-3d;
+  perspective: 2000px;
+    
+} 
+
+.dm-front-card {
+  
+   position:absolute;
+   height:100%;
+   width:100%;   
+   backface-visibility: hidden;
+   transition: transform 1s;
+
+   background-image:url('https://www.zacocomputer.com/wp-content/uploads/2023/02/mumbai-headquarters.webp');
+   background-size:cover;
+   background-positon:center center;
+     
+}
+.dm-front-card2 {
+  
+   position:absolute;
+   height:100%;
+   width:100%;   
+   backface-visibility: hidden;
+   transition: transform 1s;
+
+   background-image:url('https://www.zacocomputer.com/wp-content/uploads/2023/09/Big-ben-contact-us-1153x800.webp');
+   background-size:cover;
+   background-positon:center center;
+     
+}
+.contactUs-45 {
+  border: 4px solid #777777;
+  /* transition: border 0.10s ease-in-out 0.10s; 0.3s duration, ease-in-out timing function, 0.5s delay */
+}
+
+/* .contactUs-45:hover {
+  border: hidden;
+} */
+.dm-front-card {
+  
+   position:absolute;
+   height:100%;
+   width:100%;   
+   backface-visibility: hidden;
+   transition: transform 1s;
+
+   background-image:url('https://www.zacocomputer.com/wp-content/uploads/2023/02/mumbai-headquarters.webp');
+   background-size:cover;
+   background-positon:center center;
+     
+}
+
+/*Just overlay color of front image*/
+
+.dm-front-card:after {
+  
+  content:'';
+  position:absolute;
+  height:100%;
+  width:100%;
+  background:#1B0036;
+  top:0;
+  left:0;
+  opacity:0.5;
+  
+}
+  
+.dm-back-card {
+  
+   position:absolute;
+   height:100%;
+   width:100%;
+   background:orange;
+   backface-visibility: hidden;
+   transform:rotateY(180deg); /*-180deg to flip direction*/
+   transition: transform 1s;
+   justify-content:center;
+   align-items:center;
+   display:flex;
+   flex-direction:column;
+   
+  
+}
+
+.dm-flip-card:hover .dm-front-card {
+        
+    transform: rotateY(-180deg); /*180deg to flip direction*/
+        
+}
+    
+.dm-flip-card:hover .dm-back-card {
+        
+    transform:rotateY(0deg);
+        
+}
+
+
+
+/* Same Code as above but instead of rotateY we use rotateX*/
+
+
+.dm-flip-card2 {
+  
+  position:relative; 
+  width : 400px;
+  height : 450px;
+  background:transparent;
+  transform-style: preserve-3d;
+  perspective: 2000px;
+    
+} 
+
+.dm-front-card2 {
+  
+   position:absolute;
+   height:100%;
+   width:100%;   
+   backface-visibility: hidden;
+   transition: transform 1s;
+
+   background-image:url('http://dmmotionarts.com/wp-content/uploads/2024/02/DMmotionarts-Mayuresh-portfolio-image-1000x1000-1.jpg');
+   background-size:cover;
+   background-positon:center center;
+     
+}
+
+/*Just overlay color of front image*/
+
+.dm-front-card2:after {
+  
+  content:'';
+  position:absolute;
+  height:100%;
+  width:100%;
+  background:#1B0036;
+  top:0;
+  left:0;
+  opacity:0.5;
+  
+}
+  
+.dm-back-card2 {
+  
+   position:absolute;
+   height:100%;
+   width:100%;
+   background:orange;
+   backface-visibility: hidden;
+   transform:rotateX(180deg); /*-180deg to flip direction*/
+   transition: transform 1s;
+   justify-content:center;
+   align-items:center;
+   display:flex;
+   flex-direction:column;
+   
+  
+}
+
+.dm-flip-card2:hover .dm-front-card2 {
+        
+    transform: rotateX(-180deg); /*180deg to flip direction*/
+        
+}
+    
+.dm-flip-card2:hover .dm-back-card2 {
+        
+    transform:rotateX(0deg);
+        
+}
+
+
